@@ -67,6 +67,8 @@ export default function Hero() {
             <a 
               href="/resume.pdf" 
               target="_blank"
+              rel="noopener noreferrer"
+              download="Ashutosh_Pandey_Resume.pdf"
               className="px-6 py-3 bg-transparent border border-primary text-primary font-semibold rounded-lg flex items-center gap-2 hover:bg-primary/10 transition-all"
             >
               Resume <Download size={18} />
